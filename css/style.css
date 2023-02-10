@@ -3,11 +3,16 @@ li {
 }
 
 body {
-    background-image: url(./images/home-background.jpg);
     text-align: center;
 }
 
+.container {
+    overflow: hidden;
+}
 
+.sliding-background {
+    background: url(./images/home-background.jpg)
+}
 /*
 html {
     property: value;
