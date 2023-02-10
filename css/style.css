@@ -2,6 +2,12 @@ li {
     color: red; 
 }
 
+body {
+    background-image: url(./images/home-background.jpg);
+    text-align: center;
+}
+
+
 /*
 html {
     property: value;
