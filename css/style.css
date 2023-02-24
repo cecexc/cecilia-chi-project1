@@ -1,18 +1,10 @@
-li {    
-    color: red; 
-}
 
 body {
     text-align: center;
+    background-image: url(./images/radial.gif);
+    background-position: center;
 }
 
-.container {
-    overflow: hidden;
-}
-
-.sliding-background {
-    background: url(./images/home-background.jpg)
-}
 /*
 html {
     property: value;
