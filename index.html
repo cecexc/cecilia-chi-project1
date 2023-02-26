@@ -5,28 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/style.css"/> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#weekbutt").mouseenter(function(){
+                $("#me").attr('src','./images/weekly.png');
+            });
+            $("#weekbutt").mouseleave(function(){
+                $("#me").attr('src','./images/me.gif');
+            })
+            $("#mebutt").mouseenter(function(){
+                $("#me").attr('src','./images/aboutme.png');
+            });
+            $("#mebutt").mouseleave(function(){
+                $("#me").attr('src','./images/me.gif');
+            })
+            $("#writebutt").mouseenter(function(){
+                $("#me").attr('src','./images/writing.png');
+            });
+            $("#writebutt").mouseleave(function(){
+                $("#me").attr('src','./images/me.gif');
+            })
+            $("#galbutt").mouseenter(function(){
+                $("#me").attr('src','./images/gallery.png');
+            });
+            $("#galbutt").mouseleave(function(){
+                $("#me").attr('src','./images/me.gif');
+            })
+        });
+    </script>
     <title>cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc</title>
 </head>
-<style>
-    p.p1 {font-size: 50px;}
-    p.p2 {font-size: 3px;}
-</style>
-<h1>HEAD</h1>
-<h2>smaal head</h2>
+
 <body>
-    <p>This <b>will</b> be <em>jkhkjhj</em> huhh <br>gghjjh</p>
-    <p><small>small text</small></p>
-    <p class="p1">woah</p>
-    <p class="p2">hehehe</p>
-    <div><img src="./images/star1.gif" width="150px" height="150px"></div>
-    <span></span>
+    <img src="./images/cxchead.gif" height="150px" width="300px">
         <!-- lol -->
-    <img src="./images/cryingcat.jpg" alt="cat about to cry :(" width="400" height="225">
-
-    <div><a href="./weekly/weeklylist.html"><img src="./images/weekbutt.png"></a></div>
-    <div><a href="./aboutme.html"><img src="./images/mebutt.png"></a></div>
-    <div><a href="./works.html">works</a></div>
-    <div><a href="./gallery.html">gallery</a></div>
-
+    <div id="me-standing"><img id="me" src="./images/me.gif" height="500px" width="500px"></div>
+    <div id="rug"><img src="./images/rug.png" width="500px"></div>
+    <div id="weekbutt"><a href="./weekly/weeklylist.html"><img src="./images/weekbutt.png"></a></div>
+    <div id="mebutt"><a href="./aboutme.html"><img src="./images/mebutt.png"></a></div>
+    <div id="writebutt"><a href="./works.html"><img src="./images/writebutt.png"></a></div>
+    <div id="galbutt"><a href="./gallery.html"><img src="./images/galleybutt.png"></a></div>
+    <div id="star"><img src="./images/star.png" height="185px" width="200px"></div>
+    <div id="star-flip"><img src="./images/star-flip.png"></div>
 </body>
 </html>
