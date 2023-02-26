@@ -4,11 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>works</title>
+    <link rel="stylesheet" type="text/css" href="./css/writings.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+         $(document).ready(function(){
+        $("#sheets").mouseenter(function(){
+                $("#sheetscap").css("visibility","visible");
+            });
+        $("#sheets").mouseleave(function(){
+                $("#sheetscap").css("visibility", "hidden");
+            })
+        $("#dress").mouseenter(function(){
+                $("#dresscap").css("visibility","visible");
+            });
+        $("#dress").mouseleave(function(){
+                $("#dresscap").css("visibility", "hidden");
+            })
+         })
+    </script>
+    <title>writing</title>
 </head>
 <body>
-    <p>work work work</p>
-    <a href="./index.html">home</a>
-    <a href="./works/sheets-ver1.html">sheets</a>
+    <button><a href="./index.html" style="color: white;">home</a></button>
+    <div class="centerlist"><p style="color:white">where i collect my artist statements and mundane thoughts
+        <br>
+        nothing really special
+    </p></div>
+    <div class="img">
+        <img src="./images/writing.png">
+    </div>
+    <div class="centerlist">
+        <ul class="pages">
+    <li id="sheets"><a href="./works/sheets-ver1.html">sheets</a></li>
+    <li id="dress"><a href="./works/dress.html">dress</a></li>
+    </ul>
+    </div>
+    <p id="sheetscap">watch me get louder and louder</p>
+    <p id="dresscap">TW: Religious trauma and mention of SA <br>to: younger me who liked dresses</p>
 </body>
 </html>

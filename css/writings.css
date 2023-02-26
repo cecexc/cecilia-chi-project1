@@ -1,0 +1,67 @@
+body {
+    background-image: url(../images/paintdrip1.JPG);
+    background-size: 100%;
+}
+
+p {
+    background: hotpink;
+    font-size: 24pt;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.pages {
+    position: absolute;
+    list-style-type: circle;
+    top: 50%;
+    display: inline-block;
+    text-align: left;
+    background: hotpink;
+    font-size: 24pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul li {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.centerlist {
+    text-align: center;
+}
+
+button {
+    font-size: 18pt;
+    background-color: hotpink;
+    border: outset;
+    font-family: 'Courier New', Courier, monospace;
+    position: fixed;
+}
+
+.img {
+    position: fixed;
+    left: 20%;
+    top: 25%;
+}
+
+#sheetscap {
+    position: fixed;
+    top: 50%;
+    font-size: 16pt;
+    color:white;
+    left: 75%;
+    visibility: hidden;
+}
+
+#dresscap {
+    position: fixed;
+    top: 50%;
+    font-size: 16pt;
+    color:white;
+    left: 75%;
+    visibility: hidden;
+}
