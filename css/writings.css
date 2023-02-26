@@ -65,3 +65,12 @@ button {
     left: 75%;
     visibility: hidden;
 }
+
+#xinyicap {
+    position: fixed;
+    top: 50%;
+    font-size: 16pt;
+    color:white;
+    left: 75%;
+    visibility: hidden;
+}
