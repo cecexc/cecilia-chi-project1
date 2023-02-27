@@ -53,7 +53,7 @@ button {
     top: 50%;
     font-size: 16pt;
     color:white;
-    left: 75%;
+    left: 85%;
     visibility: hidden;
 }
 
@@ -62,7 +62,7 @@ button {
     top: 50%;
     font-size: 16pt;
     color:white;
-    left: 75%;
+    left: 85%;
     visibility: hidden;
 }
 
@@ -71,7 +71,16 @@ button {
     top: 50%;
     font-size: 16pt;
     color:white;
-    left: 75%;
+    left: 85%;
+    visibility: hidden;
+}
+
+#inchildcap {
+    position: fixed;
+    top: 50%;
+    font-size: 16pt;
+    color:white;
+    left: 85%;
     visibility: hidden;
 }
 
