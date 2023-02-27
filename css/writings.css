@@ -74,3 +74,27 @@ button {
     left: 75%;
     visibility: hidden;
 }
+
+.star {
+    position: absolute;
+    top: 5%;
+    left: 0px;
+}
+
+.star-flip {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.stargif {
+    position: absolute;
+    left: 22%;
+    top: 0px;
+}
+
+.stargif2 {
+    position: absolute;
+    right: 22%;
+    top: 9%;
+}
