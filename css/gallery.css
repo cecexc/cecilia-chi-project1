@@ -1,3 +1,38 @@
 body {
     background-image: url(../images/paintdrip2.JPG);
+    background-attachment: fixed;
+}
+
+button {
+    font-size: 18pt;
+    background-color: hotpink;
+    border: outset;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+.gallery {
+    margin: 10px;
+    border: 5px double lightpink;
+    float: left;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.gallery:hover {
+    border: 10px double white;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.caption {
+    padding: 10px;
+    text-align: center;
+    color: white;
 }

@@ -30,28 +30,28 @@ body {
 
 #weekbutt {
     position: fixed;
-    top: 250px;
+    top: 230px;
     left: 16%;
     z-index: 4;
 }
 
 #mebutt {
     position: fixed;
-    top: 500px;
+    top: 480px;
     left: 5%;
     z-index: 5;
 }
 
 #writebutt {
     position: fixed;
-    top: 250px;
+    top: 230px;
     left: 63%;
     z-index: 6;
 }
 
 #galbutt {
     position: fixed;
-    top: 500px;
+    top: 480px;
     left: 75%;
     z-index: 7;
 }
@@ -65,7 +65,7 @@ body {
 #star-flip {
     z-index: 1;
     position: fixed;
-    bottom: 20px;
+    bottom: 0px;
     right: 10px;
 }
 
