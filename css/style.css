@@ -31,14 +31,14 @@ body {
 #weekbutt {
     position: fixed;
     top: 250px;
-    left: 20%;
+    left: 16%;
     z-index: 4;
 }
 
 #mebutt {
     position: fixed;
     top: 500px;
-    left: 9%;
+    left: 5%;
     z-index: 5;
 }
 
@@ -58,15 +58,15 @@ body {
 
 #star {
     position: fixed;
-    top: 20px;
-    left: 100px;
+    top: 0px;
+    left: 50px;
 }
 
 #star-flip {
     z-index: 1;
     position: fixed;
-    top: 650px;
-    right: 0px;
+    bottom: 20px;
+    right: 10px;
 }
 
 /*

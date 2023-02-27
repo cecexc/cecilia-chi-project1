@@ -42,7 +42,7 @@ body {
     font-family: "Futura";
     position: absolute;
     top: 40%;
-    left: 9%;
+    left: 3%;
     color: lavenderblush;
     font-size: 16pt;
 }
@@ -50,7 +50,7 @@ body {
 .misc {
     position: absolute;
     top: 40%;
-    right: 15%;
+    right: 8%;
     color: lavenderblush;
     font-size: 14pt;
 }
@@ -58,7 +58,7 @@ body {
 .life {
     position: absolute;
     top: 60%;
-    right: 18%;
+    right: 10%;
 }
 
 .star {
