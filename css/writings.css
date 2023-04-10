@@ -84,6 +84,15 @@ button {
     visibility: hidden;
 }
 
+#yellowcap {
+    position: fixed;
+    top: 50%;
+    font-size: 16pt;
+    color:white;
+    left: 85%;
+    visibility: hidden;
+}
+
 .star {
     position: absolute;
     top: 5%;
