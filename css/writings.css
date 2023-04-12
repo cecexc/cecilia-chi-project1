@@ -25,6 +25,14 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
+a {
+    color: white;
+}
+
+a:hover {
+    color: #b70055;
+}
+
 ul li {
     color: white;
     margin-bottom: 20px;
