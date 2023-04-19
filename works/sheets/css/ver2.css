@@ -30,5 +30,16 @@ span {
 .a2 {
     position: absolute;
     top:20px;
-    left:550px
+    left:550px;
+}
+
+.a3 {
+    position: absolute;
+    left: 200px;
+}
+
+.a4 {
+    position: absolute;
+    top: 20px;
+    left: 250px;
 }
