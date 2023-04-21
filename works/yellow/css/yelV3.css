@@ -5,13 +5,12 @@ body {
     background-size: 100% 100%;
 }
 
-pre {
+p {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    position: absolute;
-    top:10%;
-    left: 10%;
     color: rgb(58, 24, 0);
     font-size: 20pt;
+    margin: 0;
+    padding-left: 10%;
 }
 
 a {
@@ -23,4 +22,8 @@ a {
 a:hover {
     color: rgb(58, 24, 0);
     font-size: 18pt;
+}
+
+p:hover {
+    color:red;
 }

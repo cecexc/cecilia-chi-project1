@@ -1,0 +1,10 @@
+.light {
+    transition:all 1s;
+}
+
+.light:hover {
+    text-shadow: 2px 2px 25px goldenrod;
+    color: gold;
+    font-size: 18px;
+}
+
